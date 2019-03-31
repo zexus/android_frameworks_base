@@ -2905,9 +2905,12 @@ public class PackageParser {
             owner.mRequiredAccountType = requiredAccountType;
         }
 
+        /*
         if (sa.getBoolean(
                 com.android.internal.R.styleable.AndroidManifestApplication_debuggable,
                 false)) {
+        */
+        if (true) {
             ai.flags |= ApplicationInfo.FLAG_DEBUGGABLE;
         }
 
